@@ -1,0 +1,15 @@
+
+
+
+    public static void main(String[] args) {
+   Scanner tec = new Scanner(System.in);
+       
+        System.out.println("entre com um nome");
+        String num = tec.nextLine();
+         int caracter = num.length();
+        System.out.println("a quantidade  de caracteres e: "+caracter);
+                
+        
+        
+}
+} 
