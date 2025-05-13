@@ -1,0 +1,22 @@
+	public void quest2() {
+		System.out.println("coloque o valor do IPI");
+		int IPI = tec.nextInt();
+		System.out.println("coloque o valor  um");
+
+		int valor1 = tec.nextInt();
+		System.out.println("coloque a quantidade ");
+
+	    int quant1 = tec.nextInt();
+		System.out.println("coloque o valor 2 ");
+
+		int valor2 = tec.nextInt();
+		System.out.println("coloque a quantidade");
+
+	    int quant2 = tec.nextInt();
+				
+			 double result=(valor1*quant1 + valor2*quant2)*(IPI/100 + 1);
+
+				System.out.println(result);
+
+		
+		
