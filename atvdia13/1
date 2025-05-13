@@ -1,0 +1,16 @@
+  Scanner tec= new Scanner (System.in);
+		//  1) Faça um algoritmo que leia a idade de uma pessoa expressa em anos, meses e dias e mostre-a expressa em dias. Leve em consideração o ano com 365 dias e o mês com 30.
+		//  (Ex: 3 anos, 2 meses e 15 dias = 1170 dias.)
+
+		  System.out.println("coloque sua idade");
+		  int idade = tec.nextInt();
+
+		  System.out.println("coloque seu mes ");
+		  int mes = tec.nextInt();
+
+		  System.out.println("coloque seus dias");
+		  int dia = tec.nextInt();
+			double totdias = (idade*365)+ (mes*30) + dia;
+			
+				  System.out.println("sua quantidade de dias é" + totdias);
+		  
