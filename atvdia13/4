@@ -1,0 +1,146 @@
+public void quest4() {
+
+	
+	
+	
+	
+	int C= 0;
+	System.out.println("insira um valor");
+int valor1=tec.nextInt();	
+System.out.println("insira um valor");
+int valor2=tec.nextInt();	
+
+System.out.println("insira um valor");
+int valor3=tec.nextInt();	
+System.out.println("insira um valor");
+int valor4=tec.nextInt();	
+
+System.out.println("insira um valor");
+int valor5=tec.nextInt();	
+System.out.println("insira um valor");
+int valor6=tec.nextInt();	
+System.out.println("insira um valor");
+int valor7=tec.nextInt();	
+System.out.println("insira um valor");
+int valor8=tec.nextInt();	
+System.out.println("insira um valor");
+int valor9=tec.nextInt();	
+System.out.println("insira um valor");
+int valor10=tec.nextInt();	
+System.out.println("insira um valor");
+int valor11=tec.nextInt();	
+System.out.println("insira um valor");
+int valor12=tec.nextInt();	
+System.out.println("insira um valor");
+int valor13=tec.nextInt();	
+System.out.println("insira um valor");
+int valor14=tec.nextInt();	
+System.out.println("insira um valor");
+int valor15=tec.nextInt();	
+System.out.println("insira um valor");
+int valor16=tec.nextInt();	
+System.out.println("insira um valor");
+int valor17=tec.nextInt();	
+System.out.println("insira um valor");
+int valor18=tec.nextInt();	
+System.out.println("insira um valor");
+int valor19=tec.nextInt();	
+System.out.println("insira um valor");
+int valor20=tec.nextInt();	
+
+if (valor1>8) {
+	C=C+1;
+}
+if (valor2>8) {
+	C=C+1;
+}
+if (valor3>8) {
+	C=C+1;
+}
+if (valor4>8) {
+	C=C+1;
+}
+if (valor5>8) {
+	C=C+1;
+}
+if (valor6>8) {
+	C=C+1;
+}
+
+if (valor7>8) {
+	C=C+1;
+}
+
+
+
+if (valor8>8) {
+	C=C+1;
+}
+
+
+
+if (valor9>8) {
+	C=C+1;
+}
+
+
+if (valor10>8) {
+	C=C+1;
+}
+
+
+if (valor11>8) {
+	C=C+1;
+}
+
+
+if (valor12>8) {
+	C=C+1;
+}
+
+
+if (valor13>8) {
+	C=C+1;
+}
+
+if (valor14>8) {
+	C=C+1;
+}
+
+if (valor15>8) {
+	C=C+1;
+}
+
+
+if (valor16>8) {
+	C=C+1;
+}
+
+
+
+
+if (valor17>8) {
+	C=C+1;
+}
+
+
+if (valor18>8) {
+	C=C+1;
+}
+
+if (valor19>8) {
+	C=C+1;
+}
+
+
+if (valor20>8) {
+	C=C+1;
+}
+
+
+
+
+System.out.println("os numeros maiores são: " + C);
+
+
+
