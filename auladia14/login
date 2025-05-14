@@ -1,0 +1,49 @@
+package main;
+import java.util.Scanner;
+public class Login {
+
+	public String email;
+	public String senha;
+	
+	
+	
+	
+	public void escolha() {
+		Scanner tec = new Scanner(System.in);
+		System.out.println("deseja se cadastrar (1), faça login(2)");
+		int n = tec.nextInt();
+		if (n==1) {
+			cadastro();
+		}
+		if (n==2) {
+			login();
+		}
+		
+	}
+	
+	public void cadastro() {
+		Scanner tec = new Scanner(System.in);
+		
+		System.out.println("coloque seu nome");
+		String nome = tec.next();
+		System.out.println("coloque seu email");
+		String email = tec.next();
+		System.out.println("coloque uma senha");
+		String senha = tec.next();
+		System.out.println("cadastro realizado com sucesso");
+	}
+	
+	public static void login() {
+		Scanner tec = new Scanner(System.in);
+
+		System.out.println("faça login"); 
+		
+		System.out.println("insira seu email");
+		String email = tec.next();
+		System.out.println("insira sua senha");
+		String senha = tec.next();
+
+		
+	}
+	
+}
