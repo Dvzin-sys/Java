@@ -1,0 +1,29 @@
+package main;
+
+import java.util.Scanner;
+
+public class pagamento {
+
+	
+	
+	public void compra() {
+		Scanner tec = new Scanner(System.in);
+
+		System.out.println("espátula de silicone ");
+		System.out.println("preço: 70");
+		System.out.println("como seria a forma de pagamento?");
+		String meto= tec.next();
+		if (meto=="pix") {
+		System.out.println("está e nossa chave: dyeauyteai7tetf7te7wr78uwe7uwet7uet7uc");	
+		System.out.println("fale quando for enviado");
+		String diga=tec.next();
+		if (diga=="enviado") {
+			System.out.println("conferindo pagamento");
+			System.out.println("pagamento efetuado com sucesso");
+		}
+		}
+		
+	}
+	
+	
+}
