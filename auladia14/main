@@ -1,0 +1,19 @@
+package main;
+
+public class Main {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		Login atv = new Login();
+		atv.escolha();
+
+		Ptrodutos atv2= new Ptrodutos();
+		atv2.prod();
+		
+		
+		
+		
+	}
+
+}
