@@ -1,0 +1,24 @@
+package caiocesardesgraçado;
+import java.util.Scanner;
+public class quest2 {
+
+	
+	public void Quest2() {
+		Scanner tec = new Scanner(System.in);
+
+		System.out.println("coloque o seu salario");
+		double sl = tec.nextDouble();
+		double g = 0.10;
+		double i =sl* 0.21;
+		
+		double result = sl+ g - i;
+		System.out.println("seu slario final é "+ result);
+		
+		
+		
+		
+		
+	}
+	
+	
+}
