@@ -1,0 +1,28 @@
+package caiocesardesgraçado;
+
+import java.util.Scanner;
+
+public class quest3 {
+
+	
+	
+	
+	public void Quest3() {
+		Scanner tec = new Scanner(System.in);
+		System.out.println("coloque o seu nome");
+		String nome= tec.next();
+System.out.println("coloque o seu ano de nascimento");
+		double a = tec.nextDouble();
+		System.out.println("coloque o ano atual");
+		 double at = tec.nextDouble();
+		double result = at-a;
+		if (result>=18) {
+			System.out.println(nome +" parabens maior de idade, entrada permitida");
+		} else {
+			System.out.println(nome +" infelizmente menor de idade, entrada negada");
+		}
+		 
+		 
+		 
+	}
+}
