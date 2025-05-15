@@ -1,0 +1,46 @@
+package caiocesardesgraçado;
+import java.util.Scanner;
+public class Main {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		Scanner tec = new Scanner(System.in);
+
+		System.out.println("escolha a questão");
+		int e = tec.nextInt();
+		if (e==1) {
+			quest1 atv = new quest1();
+			atv.Quest1();
+			
+		}
+	
+		if (e==2) {
+			quest2 atv = new quest2();
+			atv.Quest2();
+			
+		}
+		if (e==3) {
+			quest3 atv = new quest3();
+			atv.Quest3();
+			
+		}
+	
+		if (e==4) {
+			quest4 atv = new quest4();
+			atv.Quest4();
+			
+		}
+		if (e==5) {
+			quest5 atv = new quest5();
+			atv.Quest5();
+			
+		}
+		if (e==6) {
+			quest6 atv = new quest6();
+			atv.Quest6();
+			
+		}
+	}
+
+}
