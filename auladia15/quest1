@@ -1,0 +1,21 @@
+package caiocesardesgraçado;
+import java.util.Scanner;
+
+public class quest1 {
+
+	
+	
+	
+	
+	public void Quest1(){
+		Scanner tec = new Scanner(System.in);
+
+		System.out.println("coloque a quantidade de metros");
+		double m = tec.nextDouble();
+       double result = m*100;
+       System.out.println("sua quantidade em centimetros é"+ result);
+		
+		
+	}
+	
+}
