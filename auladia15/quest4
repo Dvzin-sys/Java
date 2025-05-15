@@ -1,0 +1,22 @@
+package caiocesardesgraçado;
+
+import java.util.Scanner;
+
+public class quest4 {
+
+	
+	public void Quest4(){
+		Scanner tec = new Scanner(System.in);
+    System.out.println("coloque o seu salario");
+		double sl= tec.nextDouble();
+		System.out.println("coloque o valor da sua prestação ");
+		double pr = tec.nextDouble();
+		if (pr>= (sl*0.15)) {
+			System.out.println("não pode ser concedido");
+		} else {
+System.out.println(" pode ser concedido");
+		}
+		
+
+	}
+}
