@@ -1,0 +1,32 @@
+package caiocesardesgraçado;
+
+import java.util.Scanner;
+
+public class quest6 {
+
+	
+	public void Quest6() {
+		
+		
+		Scanner tec = new Scanner(System.in);
+
+		System.out.println("coloque seu salario");
+		double sl= tec.nextDouble();
+		System.out.println("coloque sua quantidade de vendas");
+		double vend= tec.nextDouble();
+		System.out.println("coloque o valor da suas vendas");
+		double v= tec.nextDouble();
+		
+	double co= v*0.7;
+	
+	System.out.println(" seu salario final é: "+ (sl + co));
+		
+		
+		
+		
+		
+		
+		
+	}
+	
+}
