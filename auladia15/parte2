@@ -1,0 +1,94 @@
+1 questão
+package Main;
+
+import java.util.Scanner;
+
+public class quest1 {
+
+	
+	
+	
+	public void Quest1() {
+		Scanner tec = new Scanner(System.in);
+
+		
+		
+		double d = 5.68;
+		System.out.println("coloque sua quantidade de reais");
+			double r = tec.nextDouble();
+			double c = r/d;
+			System.out.println("sua quantidade de dolares é: " + c);
+			
+	}
+	
+}
+2 questão
+
+
+
+package Main;
+
+import java.util.Scanner;
+
+public class quest2 {
+
+	public void Quest2() {
+		// TODO Auto-generated method stub
+		
+		Scanner tec = new Scanner(System.in);
+
+		System.out.println("coloque o valor do seu deposito");
+		double dep = tec.nextDouble();
+		System.out.println("coloque a quantidade meses de rendimento (não podera ser sacado)");
+		int mes = tec.nextInt();
+		double juros = dep*0.007;
+		double jurosf = juros*mes;
+		System.out.println("valor final é: "+ jurosf);
+		
+	}
+
+}
+
+
+
+3 questão
+
+
+package Main;
+
+import java.util.Scanner;
+
+public class quest3 {
+
+	public void Quest3() {
+		// TODO Auto-generated method stub
+		
+		Scanner tec = new Scanner(System.in);
+
+		System.out.println("coloque o nome do produto desejado");
+		String prod = tec.next();
+		
+		System.out.println("coloque o preço dele ");
+	double vl= tec.nextDouble();
+	double vl2 =vl+ (vl*0.55);
+	System.out.println("seu produto " +prod+" teve um aumento de 55%, seu valor final sera: "+vl2);
+	System.out.println("veja outros produtos, se desejar digite 1 se não digite qualquer numero");
+		int v = tec.nextInt();
+	
+	if (v==1) {
+		double acucar = 5.49;
+		double banha = 12.30;
+		double batataInglesa = 2.15;
+		double batataDoce = 4.25;
+		double biscoitoPolvilho = 7.10;
+		double bolachaDoce = 6.20;
+		double bolachaSalgada = 4.05;
+		double cafe = 9.80;
+		
+	} else {
+System.out.println("tudo bem, obrigado por nos visitar");
+	}
+	}
+
+}
+
