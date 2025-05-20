@@ -1,0 +1,25 @@
+	public void Quest2() {
+		
+		Scanner tec = new Scanner(System.in);
+
+		
+
+		System.out.println("coloque a o seu codigo");
+		int codigo= tec.nextInt();
+	
+		switch (codigo) {
+		case 1: 
+			System.out.println("entrada perimitida");
+			break;
+			case 2: 
+				System.out.println("entrada permitida");
+				break;
+			case 3: 
+				System.out.println("entrada permitida");
+		break;
+		default:
+		System.out.println("numero invalido");
+		}
+		
+	}
+	
