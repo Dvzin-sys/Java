@@ -1,0 +1,26 @@
+	public void Quest4() {
+		// TODO Auto-generated method stub
+		Scanner tec = new Scanner(System.in);
+
+		
+		System.out.println("deposite uma quantia ");
+		double dep = tec.nextDouble();
+		System.out.println("deseja sacar?, digite 1, ver saldo digite 2");
+		int s= tec.nextInt();
+		if (s==2) {
+			System.out.println("seu saldo é : "+ dep);
+		}
+		if (s==1) {
+			System.out.println("quanto você deseja sacar?");
+			double sacar = tec.nextDouble();
+			if (sacar>dep) {
+				System.out.println("saldo indisponivel");
+			} else {
+				 double imposto = sacar * 0.05; 
+	                dep = (sacar + imposto); 
+	                System.out.println("Valor sacado com sucesso! Saldo restante: " + dep);
+	             
+			}
+		}
+		
+	}
