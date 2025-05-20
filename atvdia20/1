@@ -1,0 +1,47 @@
+public void Quest1() {
+		
+		
+		Scanner tec = new Scanner(System.in);
+
+		System.out.println("coloque dois numero");
+		int num = tec.nextInt();
+		System.out.println("coloque outro numero");
+		int num2 = tec.nextInt();
+		
+		
+	if (num==num2) {
+		System.out.println("os numero são iguais");
+	} else {
+System.out.println("os numeros são diferentes ");
+	}
+		if (num>=num2) {
+			System.out.println("os numero 1 é maior ou igual ao numero 2");
+		} else {
+       System.out.println("numero 1 é menor ou igual ao numero 2");
+		}
+		
+		if (num>num2) {
+			System.out.println("o numero 1 é maior que o numero 2");
+		} else {
+System.out.println("numero 2 é maior que numero 1");
+		}
+		System.out.println("area do numero 2");
+	
+	if (num2==num) {
+		System.out.println("os numero são iguais");
+	} else {
+System.out.println("os numeros são diferentes ");
+	}
+		if (num2>=num) {
+			System.out.println("os numero 1 é maior ou igual ao numero 2");
+		} else {
+       System.out.println("numero 1 é menor ou igual ao numero 2");
+		}
+		
+		if (num2>num) {
+			System.out.println("o numero 2 é maior que o numero 1");
+		} else {
+System.out.println("numero 1 é maior que numero 2");
+		}
+	}
+	
