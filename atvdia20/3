@@ -1,0 +1,11 @@
+	public void Quest3() {
+		// TODO Auto-generated method stub
+		Scanner tec = new Scanner(System.in);
+
+		System.out.println("coloque o custo de fabrica");
+		double cf= tec.nextDouble();
+		double r= (cf*0.28)+cf;
+		double re= (cf*0.45)+r;
+	System.out.println("o valor do consumidor é: "+ re);
+		
+	}
