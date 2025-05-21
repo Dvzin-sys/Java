@@ -1,0 +1,24 @@
+package atvdia21;
+
+import java.util.Scanner;
+
+public class quest2 {
+
+	public void Quest2() {
+		// TODO Auto-generated method stub
+		Scanner tec = new Scanner(System.in);
+
+		System.out.println("coloque a altura do seu retangulo");
+		double alt= tec.nextDouble();
+		System.out.println("coloque a largura do seu retangulo");
+		double lar= tec.nextDouble();
+		double cal = lar*alt;
+		System.out.println("a sua area é: "+ cal);
+		System.out.println("vamos para o perimetro");
+		double cal2= 2*(lar+alt);
+		System.out.println("seu perimetro é: "+ cal2);
+		
+		
+	}
+
+}
