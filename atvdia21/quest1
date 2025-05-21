@@ -1,0 +1,24 @@
+package atvdia21;
+
+
+import java.util.Scanner;
+
+public class quest1 {
+
+	public void Quest1() {
+		// TODO Auto-generated method stub
+		Scanner tec = new Scanner(System.in);
+ 
+		System.out.println("para fazer o calculo coloque o valor do raio");
+		double raio = tec.nextDouble();
+		double pi= 3.14;
+		double area=pi* (raio*raio);
+		System.out.println("a area é: "+ area);
+		System.out.println("vamos calcular o perimetro");
+		double peri= 2*pi*raio;
+		System.out.println("o perimetro é: "+ peri);
+		
+		
+	}
+
+}
