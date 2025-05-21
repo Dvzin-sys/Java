@@ -1,0 +1,36 @@
+package atvdia21;
+
+import java.util.Scanner;
+
+public class quest3 {
+
+	public void Quest3() {
+		// TODO Auto-generated method stub
+		Scanner tec = new Scanner(System.in);
+
+		System.out.println("olá, insira o seu nome");
+		String nome = tec.next();
+		System.out.println("coloque a matricula");
+		int matricula= tec.nextInt();
+		System.out.println("insira suas notas semestrais"); 
+		System.out.println("primeiro semestre");
+		double not1= tec.nextDouble();
+		System.out.println("segundo semestre");
+		double not2= tec.nextDouble();
+		System.out.println("terceiro semestre");
+		double not3= tec.nextDouble();
+		System.out.println("quarto semestre");
+		double not4= tec.nextDouble();
+		double cal= not1+not2+not3+not4/4;
+		if (cal>=7) {
+			System.out.println("o aluno: "+ nome);
+			System.out.println("matricula: "+ matricula);
+			System.out.println("status: aprovado");
+		} else {
+			System.out.println("o aluno: "+ nome);
+			System.out.println("matricula: "+ matricula);
+			System.out.println("status: reprovado");
+		}
+
+}
+}
