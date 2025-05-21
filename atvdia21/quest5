@@ -1,0 +1,38 @@
+package atvdia21;
+
+import java.util.Scanner;
+
+public class quest5 {
+
+	public void Quest5() {
+		// TODO Auto-generated method stub
+		Scanner tec = new Scanner(System.in);
+
+		System.out.println("coloque o titulo do seu livro");
+		String tit= tec.next();
+		System.out.println("coloque o nome do autor  ");
+		String nome= tec.next();
+		System.out.println("agora a quantidade de pagina ");
+		int pag= tec.nextInt();
+		System.out.println("----------");
+		System.out.println("bem vindo ao nosso emprestimo de de livro");
+		System.out.println("digite o titulo do livro que vc quer");
+		String escolha= tec.next();
+		if (escolha==tit) {
+			System.out.println("otimo, temos esse livro disponivel");
+			System.out.println("Dias: 20 de maio e 30 de maio");
+			System.out.println("deseja pegar?");
+			String pegar= tec.next();
+		if (pegar=="sim") {
+			System.out.println("otimo receber dia 19 de maio");
+			System.out.println("tem 5 dias para devolver");
+		} else {
+System.out.println("tudo bem até a proxima");
+		}
+		} else {
+
+
+	}
+
+}
+}
